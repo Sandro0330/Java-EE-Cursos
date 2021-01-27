@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Movimentacao.java&apos; to &apos;projeto-jpa/src/main/java/br.com.jpa.model&apos;&#x0D;&#x0A;- Original project: &apos;projeto-jpa&apos;&#x0D;&#x0A;- Destination element: &apos;projeto-jpa/src/main/java/br.com.jpa.model&apos;&#x0D;&#x0A;- Original element: &apos;br.com.jpa.teste.Movimentacao.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.jpa.model" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.jpa.teste{Movimentacao.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1611259534208" units="1" version="1.0"/>
+</session>
