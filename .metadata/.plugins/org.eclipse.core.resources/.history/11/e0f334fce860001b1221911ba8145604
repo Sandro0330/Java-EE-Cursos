@@ -11,8 +11,8 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Movimentacao {
@@ -30,7 +30,7 @@ public class Movimentacao {
 	@ManyToOne
 	private Conta conta;
 	
-	@ManyToMany
+	@OneToMany
 	private List<Categoria> categorias = new ArrayList<>();
 	
 	public List<Categoria> getCategorias() {
