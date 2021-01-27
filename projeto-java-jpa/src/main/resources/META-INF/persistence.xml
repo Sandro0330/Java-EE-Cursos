@@ -7,7 +7,8 @@
 	<persistence-unit name="contas">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>br.com.jpa.modelo.Conta</class>
-	
+		<class>br.com.jpa.modelo.Movimentacao</class>
+			
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_conta?serverTimezone=UTC"/>
 			<property name="javax.persistence.jdbc.user" value="root"/>

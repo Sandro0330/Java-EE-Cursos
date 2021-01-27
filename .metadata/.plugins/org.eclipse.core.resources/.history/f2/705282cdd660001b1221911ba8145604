@@ -1,0 +1,23 @@
+package br.com.jpa.modelo;
+
+import java.math.BigDecimal;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Movimentacao {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	private BigDecimal valor;
+	private TipoMovimentacao tipoMovimentacao;
+	private data;
+	private descricao;
+	
+	
+}
