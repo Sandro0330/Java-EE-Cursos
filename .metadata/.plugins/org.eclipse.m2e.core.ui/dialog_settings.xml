@@ -45,12 +45,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.jpa"/>
 			<item value="br.com.jpa"/>
+			<item value="com.jpa"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="projeto-java-jpa"/>
 			<item value="projeto-jpa2"/>
 			<item value="projeto-jpa-maven"/>
 			<item value="projeto-jpa"/>
