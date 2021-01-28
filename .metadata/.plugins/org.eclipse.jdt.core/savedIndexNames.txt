@@ -9,7 +9,6 @@ INDEX VERSION 1.131+C:\Users\Sandro\workspace\JavaEECompleto\.metadata\.plugins\
 2002277332.index
 188271461.index
 3116632976.index
-867197096.index
 1631710232.index
 1891178932.index
 2872044937.index
