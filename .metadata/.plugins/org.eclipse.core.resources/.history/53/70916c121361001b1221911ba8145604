@@ -18,7 +18,7 @@ public class Conta {
 	private String titular;
 	private Double saldo;
 	
-	@OneToMany(mappedBy = "conta")
+	@OneToMany
 	private List<Movimentacao> movimentacoes;
 	
 	public Conta() {
