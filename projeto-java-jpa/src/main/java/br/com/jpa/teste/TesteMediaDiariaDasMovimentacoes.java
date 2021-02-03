@@ -20,7 +20,7 @@ public class TesteMediaDiariaDasMovimentacoes {
 		
 		for(Object[]  resultado : mediaDasMovimenacoes) {
 			
-			System.out.println("A média das movimentações do dia " + resultado[1] + "/" + resultado[2] + " é: " + resultado[0]);
+			System.out.println("A média das movimentações do dia " + resultado[1] + "/ " + resultado[2] + " é: " + resultado[0]);
 		}  		
 	}
 }

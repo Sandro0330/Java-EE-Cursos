@@ -42,7 +42,7 @@ public class Movimentacao {
 	}
 
 	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+		this.descricao = descricao; 
 	}
 
 	public Conta getConta() {
