@@ -3,16 +3,16 @@ package com.jakarta.job;
 import java.util.List;
 
 import javax.ejb.Schedule;
-import javax.ejb.Stateless;
+import javax.ejb.Singleton;
 import javax.inject.Inject;
 
 import com.jakarta.entidade.AgendamentoEmail;
 import com.jakarta.servico.AgendamentoEmailServico;
 
-@Stateless
+@Singleton
 public class AgendamentoEmailJob {
 
-	@Inject
+	@Inject 
 	private AgendamentoEmailServico agendamentoEmailServico;
 	
 	@Schedule(hour = "*", minute = "*", second = "*/10")
