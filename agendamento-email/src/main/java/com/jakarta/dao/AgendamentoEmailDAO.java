@@ -3,16 +3,24 @@ package com.jakarta.dao;
 import java.util.List;
 
 import javax.ejb.Stateless;
+import javax.ejb.TransactionManagement;
+import javax.ejb.TransactionManagementType;
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.transaction.UserTransaction;
 
 import com.jakarta.entidade.AgendamentoEmail;
 
 @Stateless
+@TransactionManagement(TransactionManagementType.BEAN)
 public class AgendamentoEmailDAO {
 	
 	@PersistenceContext
 	private EntityManager entityManager;
+	
+	@Inject
+	private UserTransaction transaction;
 	
 	public List<AgendamentoEmail> listar() {
 		return entityManager.createQuery("SELECT ae FROM AgendamentoEmail ae", AgendamentoEmail.class).getResultList();
@@ -29,6 +37,13 @@ public class AgendamentoEmailDAO {
 	}
 	
 	public void alterar(AgendamentoEmail agendamentoEmail) {
-		entityManager.merge(agendamentoEmail);
+		try {
+			transaction.begin();
+			entityManager.merge(agendamentoEmail);
+			transaction.commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 	}
 }
