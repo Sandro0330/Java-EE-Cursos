@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Module"/>
-    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
-    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
-    <fullyQualifiedTypeName name="br.com.jpa.modelo.Cliente"/>
-    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
-    <fullyQualifiedTypeName name="br.com.jpa.modelo.TipoMovimentacao"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
-    <fullyQualifiedTypeName name="br.com.jpa.modelo.Categoria"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="br.com.jpa.modelo.Conta"/>
     <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
@@ -40,8 +28,6 @@
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
     <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="com.jakarta.dao.AgendamentoEmailDAO"/>
@@ -50,14 +36,28 @@
     <fullyQualifiedTypeName name="javax.ws.rs.core.Application"/>
     <fullyQualifiedTypeName name="javax.ws.rs.ApplicationPath"/>
     <fullyQualifiedTypeName name="javax.ws.rs.Path"/>
-    <fullyQualifiedTypeName name="javax.inject.Inject"/>
-    <fullyQualifiedTypeName name="com.jakarta.servico.AgendamentoEmailServico"/>
     <fullyQualifiedTypeName name="javax.ws.rs.GET"/>
     <fullyQualifiedTypeName name="javax.enterprise.inject.Produces"/>
     <fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
-    <fullyQualifiedTypeName name="com.jakarta.entidade.AgendamentoEmail"/>
     <fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
     <fullyQualifiedTypeName name="javax.ws.rs.POST"/>
     <fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
     <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+    <fullyQualifiedTypeName name="com.sun.org.slf4j.internal.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="sun.awt.windows.ThemeReader"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.jakarta.servico.AgendamentoEmailServico"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+    <fullyQualifiedTypeName name="javax.ejb.Schedule"/>
+    <fullyQualifiedTypeName name="com.jakarta.entidade.AgendamentoEmail"/>
+    <fullyQualifiedTypeName name="sun.security.jca.GetInstance"/>
+    <fullyQualifiedTypeName name="com.jakarta.job.AgendamentoEmailJob"/>
+    <fullyQualifiedTypeName name="javax.ejb.Singleton"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="com.principal.Funcionario"/>
 </qualifiedTypeNameHistroy>
