@@ -34,4 +34,4 @@ public class AgendamentoEmailJob {
 			agendamentoEmailServico.alterar(emailNaoAgendado);
 		});
 	}
-}
+} 
