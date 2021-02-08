@@ -27,10 +27,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.jakarta"/>
 		</list>
 		<list key="groupId">
-			<item value="com.jakarta"/>
 		</list>
 		<list key="artifactId">
 		</list>
@@ -48,11 +46,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.dominio"/>
+			<item value="br.com.dominio"/>
 			<item value="com.jakarta"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="jsf-livraria"/>
 			<item value="agendamento-email"/>
 		</list>
 		<list key="projectNameTemplate">
