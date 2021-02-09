@@ -31,5 +31,10 @@
 			</h:panelGrid>	
 		</fieldset>
 	</h:form>
+	<f:metadata>
+		<f:viewParam name="parametro" value="#{bean.pessoa.nome}"></f:viewParam>
+	</f:metadata>
+	<h1>#{bean.pessoa.nome}</h1>
+	
 </h:body>
 </html>
