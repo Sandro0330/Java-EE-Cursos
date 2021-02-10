@@ -5,5 +5,5 @@ org.jboss.ide.eclipse.as.ui.preferences.runtime.last.type.org.jboss.ide.eclipse.
 org.jboss.ide.eclipse.as.ui.preferences.runtime.last.type.org.jboss.ide.eclipse.as.runtime.wildfly.190=C\:\\java-libs\\wildfly-20.0.0.Final
 org.jboss.ide.eclipse.as.ui.wizards.LAST_RUNTIME_CREATED=WildFly 19.0 jsf
 org.jboss.ide.eclipse.as.ui.wizards.LAST_RUNTIME_TYPE_CREATED=org.jboss.ide.eclipse.as.runtime.wildfly.190
-org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_CREATED=WildFly 19
-org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_TYPE_CREATED=org.jboss.ide.eclipse.as.wildfly.190
+org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_CREATED=Tomcat v9.0 Server at localhost
+org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_TYPE_CREATED=org.eclipse.jst.server.tomcat.90
