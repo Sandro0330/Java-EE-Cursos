@@ -78,6 +78,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Sandro\Documents\Cursos_Java\meu-projeto"/>
+			<item value="C:\Users\Sandro\workspace\JavaEEcomJSF\meu-projeto"/>
 			<item value="F:\Cursos Alura\JavaEE\01 Java e JPA Persista seus Objetivos com JPA2 e Hibernate\testeJPA"/>
 			<item value="F:\Cursos Alura\JavaEE\01 Java e JPA Persista seus Objetivos com JPA2 e Hibernate\1598-jpa-aula5"/>
 		</list>
