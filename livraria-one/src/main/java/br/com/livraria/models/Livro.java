@@ -1,4 +1,4 @@
-package br.com.projeto.models;
+package br.com.livraria.models;
 
 import java.math.BigDecimal;
 
@@ -10,7 +10,7 @@ import javax.persistence.Lob;
 
 @Entity
 public class Livro {
-
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
@@ -21,9 +21,9 @@ public class Livro {
 	private String descricao;
 	private BigDecimal preco;
 	private Integer numeroPaginas;
-
+	
 	public Livro() {
-		super();
+
 	}
 
 	public String getTitulo() {
@@ -64,6 +64,4 @@ public class Livro {
 				+ numeroPaginas + "]";
 	}
 	
-	
-
 }

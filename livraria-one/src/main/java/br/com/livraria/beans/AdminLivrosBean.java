@@ -1,21 +1,20 @@
-package br.com.projeto.beans;
+package br.com.livraria.beans;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
-import br.com.projeto.models.Livro;
+import br.com.livraria.models.Livro;
 
 //CDI
-
 @Named
 @RequestScoped
 public class AdminLivrosBean {
-
-	private Livro livro = new Livro();
 	
+	private Livro livro = new Livro();
+
 	public void salvar() {
 		System.out.println("Livro Cadastrado: " + livro);
-		
+
 	}
 
 	public Livro getLivro() {
